@@ -107,6 +107,7 @@ def recording():
 
     return (query)
 
+
 @app.route("/chatgpt")
 def chatgpt():
     p = pyaudio.PyAudio()  # Create an interface to PortAudio
@@ -163,4 +164,4 @@ def chatgpt():
  
 
 if __name__ == "__main__":
-    app.run(debug=False,host='0.0.0.0')
+    app.run()
