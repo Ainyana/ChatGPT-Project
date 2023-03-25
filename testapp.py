@@ -121,7 +121,7 @@ def chatgpt():
     wf.close()
 
     # Define OpenAI API key 
-    openai.api_key = "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"
+    openai.api_key = "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"
 
     # Set up the model and prompt
     model_engine = "text-davinci-003"
@@ -165,3 +165,6 @@ def chatgpt():
 
 if __name__ == "__main__":
     app.run()
+    # from waitress import serve
+    # serve(app, host="0.0.0.0", port=8080)
+    
